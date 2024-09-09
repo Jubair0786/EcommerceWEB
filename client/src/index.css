@@ -1,0 +1,101 @@
+body 
+{
+  background-color: rgb(206, 185, 185);
+  color: rgb(215, 5, 5);
+  
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+.nav
+{
+  width: 100%;
+}
+.nav_bar
+{
+  background-color: rgb(75, 41, 41);
+  color: rgb(215, 5, 5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  
+}
+.search_bar
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 20px;
+  padding: 10px;
+  width: 30%;
+}
+.search_bar input
+{
+  border: none;
+  background-color: black;
+  color: white;
+  width: 400px; 
+}
+.search_bar input::placeholder
+{
+  color: green;
+  font-weight: bold;
+}
+.search_bar input:focus
+{
+  outline: none;
+}
+.sub_bar
+{
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(216, 74, 35);
+}
+.sub_bar .items
+{
+  padding: 10px;
+  color: #000;
+  font-weight: bold;
+}
+.sub_bar .items:hover
+{
+  background-color: rgb(206, 185, 185);
+  border-radius: 10px;
+  cursor: pointer;
+}
+td
+{
+
+  vertical-align: middle;
+  cursor: pointer;
+  cursor: hover;
+}
+.advertisement-header {
+  text-align: center; /* Center-aligns text and video */
+  margin: 20px 10; /* Add some space around the advertisement */
+}
+
+
+.video_container{
+ display: flex;
+ gap: 10px;
+}
+
+.left_advertisement-video {
+  flex: 1;
+  width: 100vw; /* Make the video take up the full width of its container */
+  height: 20vw; /* Maintain the aspect ratio */
+  max-width: 100%;/* Prevent the video from being larger than its container */
+}
+.right_advertisement-video {
+  flex:1;
+  width: 100vw; /* Make the video take up the full width of its container */
+  height: 20vw; /* Maintain the aspect ratio */
+  max-width: 100%;/* Prevent the video from being larger than its container */
+}
